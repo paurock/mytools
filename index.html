@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Таблица соответствия размеров шрифта в rem и px</title>
 <style>
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    transform: scale(0.8);
+  }
   table {
     border-collapse: collapse;
     width: 100%;
@@ -20,7 +25,7 @@
 </style>
 </head>
 <body>
-
+<div class="wrapper">
 <table>
   <tr>
     <th>Размер в rem</th>
@@ -111,6 +116,6 @@
     <td>48px</td>
   </tr>
 </table>
-
+</div>
 </body>
 </html>
